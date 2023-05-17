@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand text-uppercase fw-bold" href="/index.html">
+            <span class="bg-primary bg-gradient p-1 rounded-3 text-light"
+              >Justin</span
+            >
+            De Roover
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#justin">Qui suis-je ?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#expertise">Expertises</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="my-5" id="justin">
+        <div class="container">
+          <div class="row gy-4 gy-md-0 py-5 align-items-center">
+            <div class="col-12 col-md-6">
+              <h1 class="fw-bold">
+                Je suis Justin De Roover Développeur Web
+              </h1>
+              <h2 class="fw-light">Bienvenue dans mon univers créatif</h2>
+              <button class="btn btn-primary mt-5">Mon expertise Web</button>
+            </div>
+            <div class="col-12 col-md-6">
+              <img
+                src="img/image_cv.jpeg"
+                alt="photo de justin De Roover"
+                class="img-fluid rounded-circle"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 bg-light" id="expertise">
+        <div class="container">
+          <h2 class="fw-bold">Mon expertise</h2>
+          <h3 class="fw-light fs-5">Développement web et design</h3>
+          <div class="row gy-4 mt-5">
+            <div class="col-12 col-md-7">
+              <!-----progress bar-->
+              <div class="mb-3 p-3 bg-white">
+                <div class="row align-items-center">
+                    <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                        <div class="d-flex align-items-center">
+                            <i class="fab fa-html5 fa-2x me-3 text-primary"></i>
+                            <p class="fw-bold m-0">HTML5</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="progress" data-bs-toggle="tooltip" title="75%">
+                            <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
+                                 aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+              <div class="mb-3 p-3 bg-white">
+                <div class="row align-items-center">
+                  <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                    <div class="d-flex align-items-center">
+                      <i class="fab fa-css3 fa-2x me-3 text-primary"></i>
+                      <p class="fw-bold m-0">CSS3</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="progress" data-bs-toggle="tooltip" title="75%">
+                      <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
+                           aria-valuemin="0" aria-valuemax="100">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-3 p-3 bg-white">
+                <div class="row align-items-center">
+                  <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                    <div class="d-flex align-items-center">
+                      <i class="fab fa-js fa-2x me-3 text-primary"></i>
+                      <p class="fw-bold m-0">Javascript</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="progress" data-bs-toggle="tooltip" title="50%">
+                      <div class="progress-bar w-50" role="progressbar" aria-valuenow="50"
+                           aria-valuemin="0" aria-valuemax="100">
+                      </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-----end progress bar-->
+            <div class="col-12 offset-md-1 col-md-4">
+              <img
+                src="img/code.jpg"
+                alt="écran montrant du code php"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div class="row gy-4 mt-5">
+            <div class="col-12 col-md-4">
+              <img
+                src="img/design.jpg"
+                alt="écran montrant des designs"
+                width="100%"
+              />
+            </div>
+            <div class="col-12 offset-md-1 col-md-7">
+              <div class="mb-3 p-3 bg-white">
+                <div class="row align-items-center">
+                  <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                    <div class="d-flex align-items-center">
+                      <i class="fab fa-html5 fa-2x me-3 text-primary"></i>
+                      <p class="fw-bold m-0">HTML5</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="progress" data-bs-toggle="tooltip" title="75%">
+                      <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
+                           aria-valuemin="0" aria-valuemax="100">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-3 p-3 bg-white">
+                <div class="row align-items-center">
+                  <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-palette-fill fa-2x me-3 text-primary"></i>
+                      <p class="fw-bold m-0">Design art</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="progress" data-bs-toggle="tooltip" title="75%">
+                      <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
+                           aria-valuemin="0" aria-valuemax="100">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-3 p-3 bg-white">
+                <div class="row align-items-center">
+                  <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                    <div class="d-flex align-items-center">
+                      <i class="fab fa-figma fa-2x me-3 text-primary"></i>
+                      <p class="fw-bold m-0">Figma</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="progress" data-bs-toggle="tooltip" title="75%">
+                      <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
+                           aria-valuemin="0" aria-valuemax="100">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5" id="portfolio">
+        <div class="container">
+          <h2 class="fw-bold">Mon Portfolio</h2>
+          <h3 class="fw-light fs-5">Projets perso et pro</h3>
+          <div class="row gy-4 mt-4">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img
+                  src="https://picsum.photos/300/150?random=1"
+                  class="card-img-top"
+                  alt="image 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Projet 1</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#infoProjet1"
+                    >En savoir plus</a
+                  >
+                  <div
+                    class="offcanvas offcanvas-bottom h-100"
+                    tabindex="-1"
+                    id="infoProjet1"
+                    aria-labelledby="titleProjet1"
+                  >
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="titleProjet1">
+                        Projet 1
+                      </h5>
+                      <button
+                        class="btn-close text-reset"
+                        type="button"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <!----carousel-->
+                      <div
+                        id="carouselProject1"
+                        class="carousel slide shadow h-100"
+                        data-bs-ride="carousel"
+                        data-bs-touch="true"
+                      >
+                        <div class="carousel-inner h-100">
+                          <div
+                            class="carousel-item h-100 active"
+                            data-bs-interval="2000"
+                          >
+                            <img
+                              src="https://picsum.photos/300/150?random=1"
+                              class="d-block w-100"
+                              alt="image slide 1"
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 1</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img
+                              src="https://picsum.photos/300/150?random=2"
+                              class="d-block w-100"
+                              alt="..."
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 2</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img
+                              src="https://picsum.photos/300/150?random=3"
+                              class="d-block w-100"
+                              alt="..."
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 3</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img
+                              src="https://picsum.photos/300/150?random=4"
+                              class="d-block w-100"
+                              alt="..."
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 4</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          class="carousel-control-prev"
+                          type="button"
+                          data-bs-target="#carouselProject1"
+                          data-bs-slide="prev"
+                        >
+                          <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                          ></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                          class="carousel-control-next"
+                          type="button"
+                          data-bs-target="#carouselProject1"
+                          data-bs-slide="next"
+                        >
+                          <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                          ></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img
+                  src="https://picsum.photos/300/150?random=2"
+                  class="card-img-top"
+                  alt="image 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Projet 2</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#infoProjet2"
+                    >En savoir plus</a
+                  >
+                  <div
+                    class="offcanvas offcanvas-bottom h-100"
+                    tabindex="0"
+                    id="infoProjet2"
+                    aria-labelledby="titleProjet2"
+                  >
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="titleProjet2">
+                        Projet 2
+                      </h5>
+                      <button
+                        class="btn-close text-reset"
+                        type="button"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <div
+                        id="carouselProject2"
+                        class="carousel slide shadow h-100"
+                        data-bs-ride="carousel"
+                        data-bs-touch="true"
+                      >
+                        <div class="carousel-inner h-100">
+                          <div
+                            class="carousel-item h-100 active"
+                            data-bs-interval="2000"
+                          >
+                            <img
+                              src="https://picsum.photos/300/150?random=1"
+                              class="d-block w-100"
+                              alt="image slide 1"
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 1</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img
+                              src="https://picsum.photos/300/150?random=2"
+                              class="d-block w-100"
+                              alt="..."
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 2</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img
+                              src="https://picsum.photos/300/150?random=3"
+                              class="d-block w-100"
+                              alt="..."
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 3</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img
+                              src="https://picsum.photos/300/150?random=4"
+                              class="d-block w-100"
+                              alt="..."
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 4</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          class="carousel-control-prev"
+                          type="button"
+                          data-bs-target="#carouselProject2"
+                          data-bs-slide="prev"
+                        >
+                          <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                          ></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                          class="carousel-control-next"
+                          type="button"
+                          data-bs-target="#carouselProject2"
+                          data-bs-slide="next"
+                        >
+                          <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                          ></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img
+                  src="https://picsum.photos/300/150?random=3"
+                  class="card-img-top"
+                  alt="image 3"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Projet 3</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#infoProjet3"
+                    >En savoir plus</a
+                  >
+                  <div
+                    class="offcanvas offcanvas-bottom h-100"
+                    tabindex="1"
+                    id="infoProjet3"
+                    aria-labelledby="titleProjet3"
+                  >
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="titleProjet3">
+                        Projet 3
+                      </h5>
+                      <button
+                        class="btn-close text-reset"
+                        type="button"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <div
+                        id="carouselProject3"
+                        class="carousel slide shadow h-100"
+                        data-bs-ride="carousel"
+                        data-bs-touch="true"
+                      >
+                        <div class="carousel-inner h-100">
+                          <div
+                            class="carousel-item h-100 active"
+                            data-bs-interval="2000"
+                          >
+                            <img
+                              src="https://picsum.photos/300/150?random=1"
+                              class="d-block w-100"
+                              alt="image slide 1"
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 1</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img
+                              src="https://picsum.photos/300/150?random=2"
+                              class="d-block w-100"
+                              alt="..."
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 2</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img
+                              src="https://picsum.photos/300/150?random=3"
+                              class="d-block w-100"
+                              alt="..."
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 3</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img
+                              src="https://picsum.photos/300/150?random=4"
+                              class="d-block w-100"
+                              alt="..."
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 4</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          class="carousel-control-prev"
+                          type="button"
+                          data-bs-target="#carouselProject3"
+                          data-bs-slide="prev"
+                        >
+                          <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                          ></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                          class="carousel-control-next"
+                          type="button"
+                          data-bs-target="#carouselProject3"
+                          data-bs-slide="next"
+                        >
+                          <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                          ></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img
+                  src="https://picsum.photos/300/150?random=4"
+                  class="card-img-top"
+                  alt="image 4"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Projet 4</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#infoProjet4"
+                    >En savoir plus</a
+                  >
+                  <div
+                    class="offcanvas offcanvas-bottom h-100"
+                    tabindex="2"
+                    id="infoProjet4"
+                    aria-labelledby="titleProjet4"
+                  >
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="titleProjet4">
+                        Projet 4
+                      </h5>
+                      <button
+                        class="btn-close text-reset"
+                        type="button"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <div
+                        id="carouselProject4"
+                        class="carousel slide shadow h-100"
+                        data-bs-ride="carousel"
+                        data-bs-touch="true"
+                      >
+                        <div class="carousel-inner h-100">
+                          <div
+                            class="carousel-item h-100 active"
+                            data-bs-interval="2000"
+                          >
+                            <img
+                              src="https://picsum.photos/300/150?random=1"
+                              class="d-block w-100"
+                              alt="image slide 1"
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 1</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img
+                              src="https://picsum.photos/300/150?random=2"
+                              class="d-block w-100"
+                              alt="..."
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 2</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img
+                              src="https://picsum.photos/300/150?random=3"
+                              class="d-block w-100"
+                              alt="..."
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 3</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item h-100">
+                            <img
+                              src="https://picsum.photos/300/150?random=4"
+                              class="d-block w-100"
+                              alt="..."
+                            />
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Slide 4</h5>
+                              <p>
+                                lorem ispumm dolor sit amet, consecje fjazd
+                                lklfek c. llf e
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          class="carousel-control-prev"
+                          type="button"
+                          data-bs-target="#carouselProject4"
+                          data-bs-slide="prev"
+                        >
+                          <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                          ></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                          class="carousel-control-next"
+                          type="button"
+                          data-bs-target="#carouselProject4"
+                          data-bs-slide="next"
+                        >
+                          <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                          ></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 bg-light" id="contact">
+        <div class="container">
+          <h2 class="fw-bold">Un projet de création web ?</h2>
+          <h3 class="fw-light fs-5">Allons en discuter autour d'un café</h3>
+          <div class="row gy-4 mt-5">
+            <div class="col-12 col-md-5">
+              <img src="img/grab-a-coffee.jpg" alt="" class="w-100" />
+            </div>
+            <div class="col-12 offset-md-1 col-md-6">
+              <!----form-->
+              <form class="row">
+                <div class="col-6 my-2">
+                  <label for="firstname" class="form-label">Prénom</label>
+                  <input
+                    type="text"
+                    name="firstname"
+                    class="form-control"
+                    id="firstname"
+                  />
+                </div>
+                <div class="col-6 my-2">
+                  <label for="name" class="form-label">Nom</label>
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                  />
+                </div>
+                <div class="col-12 my-2">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    id="email"
+                  />
+                </div>
+                <div class="col-12 my-2">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <div class="col-12 my-2">
+                  <button type="submit" class="btn btn-primary w-100">
+                    Envoyer
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-top">
+      <div class="container py-5">
+        <div class="row gy-4 align-items-center">
+          <div class="col-12 col-md-4">
+            <a class="navbar-brand text-uppercase fw-bold" href="/index.html">
+              <span class="bg-primary bg-gradient p-1 rounded-3 text-light"
+                >Justin</span
+              >
+              De Roover
+            </a>
+          </div>
+          <div class="col-12 col-md-4 text-md-center">
+            <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal"
+                       data-bs-target="#mentionsLegales">Mentions légales</a>
+                </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-4 text-md-end">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                  <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip"
+                     title="LinkedIn">
+                      <i class="fab fa-linkedin fa-2x"></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip"
+                     title="Instagram">
+                      <i class="fab fa-instagram-square fa-2x"></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Twitter">
+                      <i class="fab fa-twitter-square fa-2x"></i>
+                  </a>
+              </li>
+          </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="modal fade" id="mentionsLegales" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Mentions Légales</h5>
+              <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis lobortis neque. Nullam sit amet ornare tellus, vel sagittis purus. Nullam velit mauris, pretium et elit eu, fermentum ultrices nibh. Nunc efficitur tempus dolor et ultrices. Mauris commodo lectus ut nunc commodo, a varius ipsum interdum. Curabitur nisi tortor, varius eu iaculis sit amet, ullamcorper in mauris. Duis et nisi non tellus sollicitudin blandit. Morbi ante ligula, consequat eu ligula eu, ornare dapibus metus. Proin ut augue velit. Pellentesque congue placerat metus, sit amet pellentesque nunc efficitur vel. Duis pulvinar sed erat ut malesuada. In id viverra libero, vel suscipit odio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+    </footer>
+  </body>
+</html>
